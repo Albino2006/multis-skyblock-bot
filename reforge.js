@@ -1,6 +1,6 @@
 const lib = require('lib')({token: process.env.STDLIB_SECRET_TOKEN});
 
-var version = '[Alpha] ';
+var version = '[Alpha] '; // Würde hier eher ein const benutzen, das soll ja ein Wert sein, der durch Sachen auf dem Discord nicht geändert wird.
 
 module.exports = async (event, context) => {
   
